@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/DimaAvvakumov/DMSerialSaving.git" }
   s.source_files = "DMSerialSaving", "DMSerialSaving/*.{h,m}"
-  s.public_header_files = "DMSerialSaving/DMSerialSaving.{h,m}"
+  s.public_header_files = "DMSerialSaving/MagicalRecord+DMSerialSaving.{h,m}"
   
   s.requires_arc = true
 
