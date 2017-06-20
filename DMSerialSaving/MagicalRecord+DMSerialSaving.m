@@ -6,11 +6,11 @@
 //  Copyright © 2016 Avvakumov Dmitry. All rights reserved.
 //
 
-#import "MagicalRecord+SerialSaving.h"
+#import "MagicalRecord+DMSerialSaving.h"
 
 #import "DMSerialSaving.h"
 
-@implementation MagicalRecord (SerialSaving)
+@implementation MagicalRecord (DMSerialSaving)
 
 + (void)serialSaveWithBlock:(void (^)(NSManagedObjectContext *))block {
     return [self serialSaveWithBlock:block completion:nil];
